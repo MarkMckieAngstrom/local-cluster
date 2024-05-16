@@ -10,7 +10,7 @@ metadata:
 data:
   project: ZGVmYXVsdA==
   type: Z2l0
-  url: aHR0cHM6Ly9naXRodWIuY29tL01pY2hhbEl6ZGVic2tpL2xvY2FsLWNsdXN0ZXIuZ2l0
+  url: aHR0cHM6Ly9naXRodWIuY29tL01hcmtNY2tpZUFuZ3N0cm9tL2xvY2FsLWNsdXN0ZXIuZ2l0
 type: Opaque
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -30,7 +30,7 @@ spec:
       jsonnet: {}
       recurse: true
     path: applications
-    repoURL: https://github.com/markmckie/local-cluster.git
+    repoURL: https://github.com/MarkMckieAngstrom/local-cluster.git
     targetRevision: main
   syncPolicy:
     automated:
